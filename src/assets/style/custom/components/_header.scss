@@ -1,0 +1,34 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: $header_height;
+  background: rgba(0, 0, 0, 0.8);
+  color: $white;
+}
+
+.header_logo {
+  display: block;
+  margin-left: 10%;
+
+  & img {
+    height: $header_height;
+    background: transparent;
+    cursor: pointer;
+  }
+}
+
+.header_navigation {
+  margin-right: 5%;
+
+  & button {
+    height: $header_height;
+    padding: 0 3rem;
+    color: $white;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+}
